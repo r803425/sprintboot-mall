@@ -1,5 +1,6 @@
 package com.ryan.sprintbootmall.service.impl;
 
+import com.ryan.sprintbootmall.contant.ProductCategory;
 import com.ryan.sprintbootmall.dao.ProductDao;
 import com.ryan.sprintbootmall.dto.ProductRequest;
 import com.ryan.sprintbootmall.model.Product;
@@ -16,8 +17,8 @@ public class ProductServiceImpl implements ProductService {
     private ProductDao productDao;
 
     @Override
-    public List<Product> getProducts() {
-        return productDao.getProducts();
+    public List<Product> getProducts(ProductCategory category, String search) {
+        return productDao.getProducts(category, search);
     }
 
     @Override
