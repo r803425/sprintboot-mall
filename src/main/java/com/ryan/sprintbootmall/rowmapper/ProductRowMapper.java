@@ -1,6 +1,6 @@
 package com.ryan.sprintbootmall.rowmapper;
 
-import com.ryan.sprintbootmall.contant.ProductCategory;
+import com.ryan.sprintbootmall.constant.ProductCategory;
 import com.ryan.sprintbootmall.model.Product;
 import org.springframework.jdbc.core.RowMapper;
 

@@ -1,6 +1,6 @@
 package com.ryan.sprintbootmall.model;
 
-import com.ryan.sprintbootmall.contant.ProductCategory;
+import com.ryan.sprintbootmall.constant.ProductCategory;
 
 import java.util.Date;
 

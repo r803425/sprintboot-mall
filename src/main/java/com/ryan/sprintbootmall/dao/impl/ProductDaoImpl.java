@@ -1,6 +1,6 @@
 package com.ryan.sprintbootmall.dao.impl;
 
-import com.ryan.sprintbootmall.contant.ProductCategory;
+import com.ryan.sprintbootmall.constant.ProductCategory;
 import com.ryan.sprintbootmall.dao.ProductDao;
 import com.ryan.sprintbootmall.dto.ProductRequest;
 import com.ryan.sprintbootmall.model.Product;

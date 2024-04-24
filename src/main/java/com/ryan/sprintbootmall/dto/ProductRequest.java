@@ -1,6 +1,6 @@
 package com.ryan.sprintbootmall.dto;
 
-import com.ryan.sprintbootmall.contant.ProductCategory;
+import com.ryan.sprintbootmall.constant.ProductCategory;
 
 import javax.validation.constraints.NotNull;
 

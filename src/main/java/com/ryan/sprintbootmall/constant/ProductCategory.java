@@ -1,4 +1,4 @@
-package com.ryan.sprintbootmall.contant;
+package com.ryan.sprintbootmall.constant;
 
 public enum ProductCategory {
     FOOD,

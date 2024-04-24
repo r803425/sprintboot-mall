@@ -1,6 +1,6 @@
 package com.ryan.sprintbootmall.controller;
 
-import com.ryan.sprintbootmall.contant.ProductCategory;
+import com.ryan.sprintbootmall.constant.ProductCategory;
 import com.ryan.sprintbootmall.dto.ProductRequest;
 import com.ryan.sprintbootmall.model.Product;
 import com.ryan.sprintbootmall.service.ProductService;
