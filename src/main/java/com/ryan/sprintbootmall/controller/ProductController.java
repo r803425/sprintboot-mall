@@ -1,6 +1,7 @@
 package com.ryan.sprintbootmall.controller;
 
 import com.ryan.sprintbootmall.constant.ProductCategory;
+import com.ryan.sprintbootmall.dto.ProductQueryParams;
 import com.ryan.sprintbootmall.dto.ProductRequest;
 import com.ryan.sprintbootmall.model.Product;
 import com.ryan.sprintbootmall.service.ProductService;
@@ -23,7 +24,12 @@ public class ProductController {
             @RequestParam(required = false) ProductCategory category,
             @RequestParam(required = false) String search
     ) {
-        List<Product> productList = productService.getProducts(category, search);
+
+        ProductQueryParams productQueryParams = new ProductQueryParams();
+        productQueryParams.setCategory(category);
+        productQueryParams.setSearch(search);
+
+        List<Product> productList = productService.getProducts(productQueryParams);
 
         return ResponseEntity.status(HttpStatus.OK).body(productList);
     }
