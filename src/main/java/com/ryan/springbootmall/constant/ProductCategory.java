@@ -1,4 +1,4 @@
-package com.ryan.sprintbootmall.constant;
+package com.ryan.springbootmall.constant;
 
 public enum ProductCategory {
     FOOD,

@@ -1,11 +1,11 @@
-package com.ryan.sprintbootmall.controller;
+package com.ryan.springbootmall.controller;
 
-import com.ryan.sprintbootmall.constant.ProductCategory;
-import com.ryan.sprintbootmall.dto.ProductQueryParams;
-import com.ryan.sprintbootmall.dto.ProductRequest;
-import com.ryan.sprintbootmall.model.Product;
-import com.ryan.sprintbootmall.service.ProductService;
-import com.ryan.sprintbootmall.util.Page;
+import com.ryan.springbootmall.constant.ProductCategory;
+import com.ryan.springbootmall.dto.ProductQueryParams;
+import com.ryan.springbootmall.dto.ProductRequest;
+import com.ryan.springbootmall.model.Product;
+import com.ryan.springbootmall.service.ProductService;
+import com.ryan.springbootmall.util.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,10 @@
-package com.ryan.sprintbootmall.service.impl;
+package com.ryan.springbootmall.service.impl;
 
-import com.ryan.sprintbootmall.dao.ProductDao;
-import com.ryan.sprintbootmall.dto.ProductQueryParams;
-import com.ryan.sprintbootmall.dto.ProductRequest;
-import com.ryan.sprintbootmall.model.Product;
-import com.ryan.sprintbootmall.service.ProductService;
+import com.ryan.springbootmall.dao.ProductDao;
+import com.ryan.springbootmall.dto.ProductQueryParams;
+import com.ryan.springbootmall.dto.ProductRequest;
+import com.ryan.springbootmall.model.Product;
+import com.ryan.springbootmall.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

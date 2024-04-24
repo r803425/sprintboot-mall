@@ -1,6 +1,6 @@
-package com.ryan.sprintbootmall.dto;
+package com.ryan.springbootmall.dto;
 
-import com.ryan.sprintbootmall.constant.ProductCategory;
+import com.ryan.springbootmall.constant.ProductCategory;
 
 public class ProductQueryParams {
 

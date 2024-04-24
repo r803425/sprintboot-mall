@@ -1,4 +1,4 @@
-package com.ryan.sprintbootmall;
+package com.ryan.springbootmall;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,12 +1,12 @@
-package com.ryan.sprintbootmall.service;
+package com.ryan.springbootmall.dao;
 
-import com.ryan.sprintbootmall.dto.ProductQueryParams;
-import com.ryan.sprintbootmall.dto.ProductRequest;
-import com.ryan.sprintbootmall.model.Product;
+import com.ryan.springbootmall.dto.ProductQueryParams;
+import com.ryan.springbootmall.dto.ProductRequest;
+import com.ryan.springbootmall.model.Product;
 
 import java.util.List;
 
-public interface ProductService {
+public interface ProductDao {
 
     Integer countProduct(ProductQueryParams productQueryParams);
 
@@ -19,5 +19,4 @@ public interface ProductService {
     void updateProduct(Integer productId, ProductRequest productRequest);
 
     void deleteProductById(Integer productId);
-
 }

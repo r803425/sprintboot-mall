@@ -1,7 +1,7 @@
-package com.ryan.sprintbootmall.rowmapper;
+package com.ryan.springbootmall.rowmapper;
 
-import com.ryan.sprintbootmall.constant.ProductCategory;
-import com.ryan.sprintbootmall.model.Product;
+import com.ryan.springbootmall.constant.ProductCategory;
+import com.ryan.springbootmall.model.Product;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

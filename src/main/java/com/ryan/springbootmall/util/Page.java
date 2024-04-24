@@ -1,4 +1,4 @@
-package com.ryan.sprintbootmall.util;
+package com.ryan.springbootmall.util;
 
 import java.util.List;
 
